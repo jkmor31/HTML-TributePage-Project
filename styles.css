@@ -1,0 +1,56 @@
+header {
+    text-align: center;
+    margin: 10px;
+    font-family: TimesNewRoman;
+  }
+  
+  body { 
+    background-color: dodgerblue;
+    font-family: arial;
+    text-align: center;
+  }
+  #main {
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eee;
+  }
+  ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+  li {
+    margin: 16px 0;
+  }
+  
+  @media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+  }
+  
+  img {
+    max-width: 500px;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  #img-div {
+    background: #cde;
+    padding: 10px;
+    margin: 0;
+  }
+  #img-caption {
+    margin: 15px 0 5px 0;
+  }
+
+  footer {
+      line-height: 25px;
+  }
+
+  footer a {
+      color: rgba(9, 22, 138, 0.822);
+  }
